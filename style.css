@@ -2,9 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+  
+  body {
+  background: linear-gradient(135deg, #2563EB, #9333EA);
+  color: #fff;
+}
   
   /* Navbar */
   header {
@@ -100,10 +105,7 @@
   
 /* experience page */
 
-body {
-  background: linear-gradient(135deg, #2563EB, #9333EA);
-  color: #fff;
-}
+
 
 .timeline {
   position: relative;

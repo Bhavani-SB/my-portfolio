@@ -3,26 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bhavani S - Portfolio</title>
+  <title>Contact - Bhavani S</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body >
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #9333EA, #2563EB);">
     <div class="container-fluid">
-      <!-- Logo -->
       <a class="navbar-brand fw-bold" href="index.html">BHAVANI S</a>
-
-      <!-- Hamburger Button for Mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Menu Links -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -35,10 +29,63 @@
     </div>
   </nav>
 
-   <!-- Hero Section -->
-   <section class="hero">
-    <div class="hero-content">
-      <!-- Hero text or image goes here -->
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="fw-bold text-center text-white mb-4">Get in Touch</h1>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <!-- Contact Form -->
+          <form action="mailto:sb.bhavani.sb@gmail.com" method="post" enctype="text/plain"
+                style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(8px);">
+
+            <!-- Name -->
+            <div class="mb-3">
+              <label class="form-label text-white">Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Enter your name" required
+                     style="border-radius: 10px; border: none;">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <label class="form-label text-white">Email</label>
+              <input type="email" name="email" class="form-control" placeholder="Enter your email" required
+                     style="border-radius: 10px; border: none;">
+            </div>
+
+            <!-- Subject -->
+            <div class="mb-3">
+              <label class="form-label text-white">Subject</label>
+              <input type="text" name="subject" class="form-control" placeholder="Enter subject" required
+                     style="border-radius: 10px; border: none;">
+            </div>
+
+            <!-- Message -->
+            <div class="mb-3">
+              <label class="form-label text-white">Message</label>
+              <textarea name="message" class="form-control" rows="5" placeholder="Write your message..." required
+                        style="border-radius: 10px; border: none;"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn w-100"
+                    style="background:#fff; color:#9333EA; font-weight:600; border-radius:10px;">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Social Links -->
+      <div class="text-center mt-5">
+        <a href="mailto:sb.bhavani.sb@gmail.com"
+           class="btn btn-outline-light btn-sm mx-2" style="border-radius: 30px;">📧 Email</a>
+        <a href="https://www.linkedin.com/in/sb-bhavani-sb" target="_blank"
+           class="btn btn-outline-light btn-sm mx-2" style="border-radius: 30px;">🔗 LinkedIn</a>
+        <a href="https://github.com/Bhavani-SB" target="_blank"
+           class="btn btn-outline-light btn-sm mx-2" style="border-radius: 30px;">🐙 GitHub</a>
+      </div>
     </div>
   </section>
 
